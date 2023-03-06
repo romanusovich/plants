@@ -1,0 +1,255 @@
+@media (max-width: 380px) {
+    h1{
+        font-size: 25px;
+        line-height: 35px;
+        margin: 0;
+    }
+
+    h2{
+        font-size: 25px;
+        line-height: 32.5px;
+        margin: 0;
+    }
+    
+    p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        padding: 0 25px;
+        min-height: 96px;
+    }
+
+    section{
+        padding: 26px 25px 24px;
+    }
+
+    #welcome{
+        min-height: 300px;
+    }
+
+    .welcome-section{
+        flex-direction: column;
+    }
+
+    .leafs{
+        display: none;
+    }
+
+    .welcome-text{
+        width: auto;
+        height: auto;
+    }
+
+    .welcome-text p{
+        margin: 20px 0 26px;
+    }
+
+    .welcome-text button{
+        width: 100px;
+        height: 34px;
+        font-size: 10px;
+    }
+
+    #about{
+        min-height: 516px;
+        padding: 30px 25px;
+    }
+    
+    .about-us h2{
+        line-height: 32.5px;
+        margin: 0;
+    }
+
+    .about-us p{
+        line-height: 25px;
+        margin: 14px 0 0;
+    }
+
+    .about-us-houseplant{
+        max-height: 147px;
+    }
+
+    .about-us-houseplant img{
+        max-width: 150px;
+    }
+
+    #service{
+        min-height: 3150px;
+        padding: 30px 25px 27px;
+    }
+
+    .service-header{
+        margin: 0 0 31px;
+    }
+
+    .service-text{
+        width: 187px;
+    }
+
+    .service-text h2{
+        line-height: 32.5px;
+    }
+
+    .service-buttons{
+        margin: 39px 0 0;
+    }
+
+    .service-buttons button{
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 19.5px;
+        margin-right: 6px;
+        margin-bottom: 9px;
+    }
+
+    .services{
+        grid-template-columns: 1fr;
+        row-gap: 34px;
+        margin: 0 auto;
+    }
+
+    .service-rectangle p{
+        font-size: 20px;
+    }
+
+    #prices{
+        min-height: 512px;
+        padding: 16px 25px;
+    }
+
+    .price-section{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .prices{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .prices h2{
+        margin: 0;
+    }
+
+    .prices-rectangle{
+        width: 224px;
+        min-height: 235px;
+        margin: 28px 20px;
+    }
+
+    .price-item{
+        width: 180px;
+        min-height: 50px;
+        margin: 7px 0;
+        padding: 0 40px 0 30px;
+    }
+
+    .price-item.active{
+        padding: 16px 40px 12px 30px;
+    }
+
+    .price-item p{
+        margin: 1px 0 0 1px;
+    }
+
+    .prices-other{
+        max-width: 230px;
+        margin: -8px 0;
+    }
+
+    .prices-contact{
+        text-align: center;
+    }
+
+    .prices-contact h2{
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .prices-contact button{
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+        line-height: 19.5px;
+        margin: 20px 0 0 0;
+    }
+
+    .prices-leafs{
+        display: none;
+    }
+
+    #contacts{
+        min-height: 445px;
+        padding: 25px 25px 0;
+    }
+
+    .contact-section{
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .contact-woman{
+        order: 3;
+        margin: 132px 0 0;
+    }
+
+    .contact-woman img{
+        width: 100px;
+    }
+
+    .contact-header{
+        order: 1;
+    }
+
+    .contact-header h2{
+        font-size: 25px;
+    }
+
+    .contact-dropdown-block{
+        margin: 80px 0 0;
+        z-index: 20;
+    }
+
+    .contact-dropdown p{
+        font-size: 20px;
+    }
+
+    .contact-dropdown-head{
+        padding: 5px 20px;
+    }
+
+    .contact-info-block.active{
+        margin: 20px 0 0;
+    }
+
+    footer{
+        min-height: 146px;
+        padding: 22px 0 16px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+
+    .footer-rs-link{
+        margin: 15px 0;
+    }
+
+    .footer-social-list{
+        margin: -2px 0;
+    }    
+}

@@ -1,0 +1,230 @@
+@media (max-width: 768px) {
+    h1{
+        font-size: 35px;
+        margin: 0;
+    }
+
+    h2{
+        font-size: 35px;
+        margin: 0;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header{
+        padding: 35px 50px;
+        min-height: 117px;
+    }
+
+    section{
+        padding: 40px 50px;
+    }
+
+    #welcome{
+        min-height: 420px;
+        box-shadow: none;
+    }
+
+    .welcome-section{
+        flex-direction: row-reverse;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .leafs img{
+        width: 280px;
+    }
+
+    .welcome-text{
+        width: 346px;
+    }
+
+    .welcome-text p{
+        font-size: 16px;
+        line-height: 25px;
+        margin: 31px 0px 35px 5px;
+    }
+
+    #about{
+        min-height: 783px;
+        padding: 35px 50px;
+    }
+
+    .about-section{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .about-us{
+        width: auto;
+    }
+
+    .about-us h2{
+        text-align: center;
+        line-height: 46px;
+    }
+
+    .about-us p{
+        margin: 50px 0px 68px 0px;
+    }
+
+    .about-us-houseplant img{
+        width: 250px;
+    }
+
+    #service{
+        min-height: 1780px;
+        padding: 60px 50px;
+    }
+
+    .service-header{
+        flex-direction: column;
+        margin: 0 0 40px;
+    }
+
+    .service-text h2{
+        line-height: 46px;
+    }
+
+    .service-buttons{
+        margin: 42px 0 0 0;
+    }
+
+    .services{
+        grid-template-columns: repeat(auto-fill, 280px);
+        justify-content: space-between;
+        column-gap: 10px;
+        row-gap: 38px;
+    }
+
+    .service-item img{
+        object-fit: cover;
+        height: 350px;
+    }
+
+    .service-rectangle p{
+        margin: 10px 0 10px;
+    }
+
+    .service-rectangle span{
+        margin: 0 auto;
+        width: 201px;
+    }
+
+    #prices{
+        min-height: 585px;
+        padding: 37px 50px;
+    }
+
+    .price-section{
+        flex-wrap: wrap;
+    }
+
+    .prices h2{
+        margin: 0 0 53px 14px;
+    }
+
+    .price-item p{
+        margin: 4px 0 0 1px;
+    }
+
+    .prices-other{
+        margin: 103px 0 0 0;
+        max-width: 282px;
+        justify-content: flex-start;
+    }
+
+    .prices-contact h2{
+        font-size: 25px;
+        line-height: 35px;
+        margin: 0;
+    }
+
+    .prices-contact button{
+        margin: 28px 0 28px 0;
+    }
+
+    .prices-leafs img{
+        margin-right: -10px;
+    }
+
+    #contacts{
+        min-height: 739px;
+        padding: 40px 50px 0 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-section{
+        flex-direction: column;
+        align-items: center;
+        max-width: 450px;
+        width: 100%;
+    }
+
+    .contact-woman{
+        order: 3;
+        margin-left: 20px;
+        margin-top: 250px;
+        display: flex;
+        align-items: baseline;
+    }
+
+    .contact-woman img{
+        width: 200px;
+    }
+
+    .contact-header{
+        order: 1;
+        margin: 0;
+    }
+
+    .contact-header h2{
+        font-size: 40px;
+    }
+
+    .contact-dropdown-block{
+        order: 2;
+        margin: 100px 0 0;
+    }
+
+    .contact-dropdown{
+        transition: none;
+    }
+
+    .contact-dropdown.active{
+        margin-bottom: -234px;
+    }
+
+    .contact-info-block.active{
+        margin: 40px 0 -254px;
+    }
+
+    footer{
+        min-height: 181px;
+        padding: 28px 0 18px 0;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .footer-data p{
+        margin: 0 10px 0;
+    }
+
+    .footer-rs-link{
+        margin: 5px 0;
+    }
+
+    .footer-social-list{
+        margin: 17px 0 0 0;
+    }
+
+    .footer-social-list li{
+        margin: 0 10px;
+    }
+}
